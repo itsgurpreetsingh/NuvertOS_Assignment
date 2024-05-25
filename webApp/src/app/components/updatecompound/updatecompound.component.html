@@ -1,0 +1,21 @@
+<div class="bg-light py-5 text-center">
+    <h1 class="roboto display-3 fw-bold">Update Compound</h1>
+  </div>
+  <div class="container bg-light my-5 p-5 rounded-3">
+    <form #compoundForm="ngForm" (ngSubmit)="onUpdate(compoundForm)">
+      <h5 class="roboto fw-bold">id:</h5>
+      <input type="number" class="form-control mb-3" name="id" ngModel>
+      <h5 class="roboto fw-bold">Compound Name:</h5>
+      <input type="text" class="form-control mb-3" name="CompoundName" ngModel>
+      <h5 class="roboto fw-bold">Compound Description:</h5>
+      <textarea type="text" cols="30" rows="4" class="form-control mb-3" name="CompoundDescription" ngModel></textarea>
+      <h5 class="roboto fw-bold">Image Source:</h5>
+      <textarea type="url" cols="30" rows="2" class="form-control mb-3" name="strImageSource" ngModel></textarea>
+      <h5 class="roboto fw-bold">Image Attribution:</h5>
+      <textarea type="text" cols="30" rows="2" class="form-control mb-3" name="strImageAttribution" ngModel></textarea>
+      <h5 class="roboto fw-bold">Date Modified (yyyy-mm-dd hh:mm:ss):</h5>
+      <input type="text" class="form-control mb-3" name="dateModified" ngModel>
+      <button class="btn btn-dark" type="submit">Submit</button>
+    </form>
+  </div>
+  

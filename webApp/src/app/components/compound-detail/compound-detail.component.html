@@ -1,0 +1,12 @@
+<div class="compound-detail">
+    <div [class.hidden]="!compound" class="details">
+      <h2>{{ compound?.id }}. {{ compound?.CompoundName }}</h2>
+      <img [src]="compound?.strImageSource" alt="Compound Image" width="450" height="450">
+      <div class="cdescription">
+        <h3>Description</h3>
+        <p>{{ compound?.CompoundDescription }}</p>
+        <p>Last Modified: {{compound?.dateModified}}</p>
+      </div>
+    </div>
+  </div>
+  

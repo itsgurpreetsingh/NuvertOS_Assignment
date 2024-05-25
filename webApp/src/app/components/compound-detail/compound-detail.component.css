@@ -1,0 +1,28 @@
+.compound-detail .details.hidden {
+    display: none;
+    margin: auto;
+  }
+  
+.compound-detail .details {
+    display: block;
+    margin: auto;
+  }
+h2{
+  margin-left: 5px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+img{
+  margin-left: 35%;
+  margin-right: 50%;
+  margin-bottom: 40px;
+}
+p{
+  margin-top:10px;
+  margin-bottom: 7px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+h3{
+  margin-left: 5px;
+}

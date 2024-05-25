@@ -1,0 +1,68 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  padding-bottom: 0px;
+}
+
+.card {
+  flex: 0 0 calc(33.33% - 20px); /* Adjust the width for three cards per row */
+  margin-bottom: 20px; /* Add margin between cards */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.card img {
+  width: 150px; /* Set fixed width */
+  height: 150px; /* Set fixed height */
+  object-fit: contain; /* Fit the entire image within the specified dimensions */
+  margin: auto;
+  cursor: pointer;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+  font-size: medium;
+}
+
+.cardbutton{
+ margin-bottom:3px;
+}
+.pagination{
+  justify-content: center;
+}
+.btn{
+  display: inline-block;
+  padding: 8px 12px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  color: #333;
+}
+.btn:hover{
+  color:white;
+  background-color: black;
+}
+.cardbutton:hover{
+  color:white;
+  background-color: black;
+}
+.pages{
+ margin-top:auto;
+ margin-bottom: auto;
+ margin-left: 10px;
+}
+.currentpagebtn {
+  background-color: black;
+  color: white;
+}
+
+.otherpages {
+  background-color: white;
+  color: black;
+}
